@@ -49,12 +49,12 @@ rel="stylesheet">
       <div class="p-2.5 mt-1 flex items-center rounded-md ">
         <span class="text-2xl font-[Poppins] cursor-pointer">
             <img class="h-20 inline"
-              src="logo.png">
+              src="logo.jpg">
         
     
           </span>
     
-        <h1 class="text-[15px]  ml-3 text-xl text-gray-200 font-bold">L-earn</h1>
+        <h1 class="text-[15px]  ml-3 text-xl text-gray-200 font-bold">iL-earn</h1>
         <i class="bi bi-x ml-20 cursor-pointer lg:hidden" onclick="Openbar()"></i>
       </div>
       <hr class="my-2 text-gray-600">
@@ -94,10 +94,7 @@ rel="stylesheet">
         </a>
 
         <hr class="my-4 text-gray-600">
-        <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer  hover:bg-orange-500">
-          <i class="bi bi-envelope-fill"></i>
-          <span class="text-[15px] ml-4 text-gray-200">Messages</span>
-        </div>
+        
 
         <div class="p-2.5 mt-2 flex items-center rounded-md px-4 duration-300 cursor-pointer  hover:bg-orange-500">
           <i class="bi bi-chat-left-text-fill"></i>
@@ -109,9 +106,10 @@ rel="stylesheet">
           </div>
         </div>
         <div class=" leading-7 text-left text-sm font-thin mt-2 w-4/5 mx-auto" id="submenu">
-          <h1 class="cursor-pointer p-2 hover:bg-gray-700 rounded-md mt-1">Instagram</h1>
-          <h1 class="cursor-pointer p-2 hover:bg-gray-700 rounded-md mt-1">Facebook</h1>
-          <h1 class="cursor-pointer p-2 hover:bg-gray-700 rounded-md mt-1">Telegram</h1>
+          <a href="https://www.instagram.com/ilearn_official_page/">
+          <h1 class="cursor-pointer p-2 hover:bg-gray-700 rounded-md mt-1">Instagram</h1></a>
+          <a href="https://t.me/+TAYel2Hpu400Yzc9">
+          <h1 class="cursor-pointer p-2 hover:bg-gray-700 rounded-md mt-1">Telegram</h1></a>
         </div>
         <div class="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer  hover:bg-orange-500">
           <i class="bi bi-box-arrow-in-right"></i>
@@ -163,7 +161,7 @@ rel="stylesheet">
             <img alt="content" class="object-cover object-center h-full w-full" src="https://source.unsplash.com/random/1202x502/?buisness">
           </div>
           <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Affiliate Marketing  ||  Online Business</h2>
-          <a href="pay.html">
+          <a href="pay.php">
           <button        class="flex mx-auto mt-6 text-white bg-orange-500 border-0 py-2 px-5 focus:outline-none hover:bg-orange-600 rounded">Join now!</button></a>
         </div>
     </div>
@@ -435,7 +433,7 @@ rel="stylesheet">
         
          
         </a>
-        <a href="pay.html">
+        <a href="pay.php">
         <button class="flex ml-auto text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded">Buy Now!</button></a>
       </div>
     </div>

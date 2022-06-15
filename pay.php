@@ -17,48 +17,25 @@
 
 
 
-
-
-
-
-
-
-
-
-
-  <nav class="p-3 bg-white shadow md:flex md:items-center md:justify-between">
-    <div class="flex justify-between items-center ">
-      <span class="text-2xl font-[Poppins] cursor-pointer">
-        <img class="h-20 inline"
-          src="/logo.png">
+<header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
     
-
-      </span>
-
-      <span class="text-3xl cursor-pointer mx-2 md:hidden block">
-        <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
-      </span>
+    </nav>
+    <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+    <img class="h-20 inline"
+              src="logo.jpg">
+        
+     
+    </a>
+    <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+      <a href="index.php">
+      <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-4 focus:outline-none hover:bg-gray-200 rounded text-base mt-3 md:mt-0">Home
+      </button>
+      </a>
     </div>
-
-    <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
-      <li class="mx-4 my-6 md:my-0">
-        <a href="home.html" class="text-xl hover:text-cyan-500 duration-500">HOME</a>
-      </li>
-    
-
-
-  
-<h2 class=""></h2>
-    </ul>
-  </nav>
-
-
-  <script>
-    function Menu(e){
-      let list = document.querySelector('ul');
-      e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
-    }
-  </script>
+  </div>
+</header>
 
 
 
